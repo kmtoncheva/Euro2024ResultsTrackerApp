@@ -8,9 +8,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MatchesCommand implements CommandAPI{
+    private final Map<Integer, Match> allMatches;
+
+    public MatchesCommand(Map<Integer, Match> allMatches){
+        this.allMatches = allMatches;
+    }
+
     @Override
-    public void execute(HashMap<String, Player> allPlayers, HashMap<String, Team> allTeams,
-                        HashMap<Integer, Match> allMatches) {
+    public void execute() {
         LocalDate currentDate = LocalDate.now();
         boolean upcomingMatches = false;
 

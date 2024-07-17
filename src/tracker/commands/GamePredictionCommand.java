@@ -6,9 +6,14 @@ import java.util.Map;
 //import static tracker.commands.GroupStandingsCommand.calculateStanding;
 
 public class GamePredictionCommand implements CommandAPI{
+    private final Map<Integer, Match> allMatches;
+
+    public GamePredictionCommand(Map<Integer, Match> allMatches){
+        this.allMatches = allMatches;
+    }
+
     @Override
-    public void execute(HashMap<String, Player> allPlayers, HashMap<String, Team> allTeams,
-                        HashMap<Integer, Match> allMatches) {
+    public void execute() {
 
         System.out.println("\n\n-----------UPCOMING Game prediction-----------\n");
 
@@ -20,7 +25,7 @@ public class GamePredictionCommand implements CommandAPI{
         }
     }
 
-    private void predictWinner(TeamEntity homeTeam, TeamEntity awayTeam, HashMap<Integer, Match> allMatches){
+    private void predictWinner(TeamEntity homeTeam, TeamEntity awayTeam, Map<Integer, Match> allMatches){
         GroupStanding groupStandingHome = new GroupStanding();
         groupStandingHome.calculateStanding(homeTeam.getTeamName(), allMatches);
         GroupStanding groupStandingAway = new GroupStanding();

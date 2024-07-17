@@ -30,7 +30,7 @@ public class GroupStanding {
         return (wins*3 + draws);
     }
 
-    public void calculateStanding(String team, HashMap<Integer, Match> allMatches) {
+    public void calculateStanding(String team, Map<Integer, Match> allMatches) {
         for (Map.Entry<Integer, Match> matchEntry : allMatches.entrySet()) {
             Match match = matchEntry.getValue();
 

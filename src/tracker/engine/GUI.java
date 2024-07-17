@@ -104,8 +104,8 @@ public class GUI {
         matchesButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                cmd = new MatchesCommand();
-                cmd.execute(allPlayers, allTeams, allMatches);
+                cmd = new MatchesCommand(allMatches);
+                cmd.execute();
             }
         });
 
@@ -117,8 +117,8 @@ public class GUI {
         listTeamsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                cmd = new ListTeamsCommand();
-                cmd.execute(allPlayers, allTeams, allMatches);
+                cmd = new ListTeamsCommand(allPlayers, allTeams);
+                cmd.execute();
             }
         });
 
@@ -130,8 +130,8 @@ public class GUI {
         listMatchesButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                cmd = new ListMatchesCommand();
-                cmd.execute(allPlayers, allTeams, allMatches);
+                cmd = new ListMatchesCommand(allMatches);
+                cmd.execute();
             }
         });
 
@@ -143,8 +143,8 @@ public class GUI {
         statsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                cmd = new StatsCommand();
-                cmd.execute(allPlayers, allTeams, allMatches);
+                cmd = new StatsCommand(allPlayers, allTeams);
+                cmd.execute();
             }
         });
 
@@ -156,8 +156,8 @@ public class GUI {
         articlesButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                cmd = new ArticlesCommand();
-                cmd.execute(allPlayers, allTeams, allMatches);
+                cmd = new ArticlesCommand(allPlayers, allMatches);
+                cmd.execute();
             }
         });
 
@@ -169,11 +169,11 @@ public class GUI {
         groupStandingsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                cmd = new GroupStandingsCommand();
-                cmd.execute(allPlayers, allTeams, allMatches);
+                cmd = new GroupStandingsCommand(allTeams, allMatches);
+                cmd.execute();
                 // forgot to add a button for upcoming game prediction feature so added the future here
-                CommandAPI cmd2 = new GamePredictionCommand();
-                cmd2.execute(allPlayers, allTeams, allMatches);
+                CommandAPI cmd2 = new GamePredictionCommand(allMatches);
+                cmd2.execute();
             }
         });
     }

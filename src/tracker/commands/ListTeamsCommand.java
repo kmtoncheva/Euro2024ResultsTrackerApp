@@ -7,9 +7,16 @@ import java.util.List;
 import java.util.Map;
 
 public class ListTeamsCommand implements CommandAPI {
+    private final Map<String, Player> allPlayers;
+    private final Map<String, Team> allTeams;
+
+    public ListTeamsCommand(Map<String, Player> allPlayers, Map<String, Team> allTeams){
+        this.allPlayers = allPlayers;
+        this.allTeams = allTeams;
+    }
+
     @Override
-    public void execute(HashMap<String, Player> allPlayers, HashMap<String, Team> allTeams,
-                        HashMap<Integer, Match> allMatches) {
+    public void execute() {
         System.out.println("\n\n---------------Participating teams--------------\n");
         for(Map.Entry<String, Team> entry : allTeams.entrySet()){
             Team tm = entry.getValue();

@@ -5,9 +5,16 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 public class StatsCommand implements CommandAPI{
+    private final Map<String, Player> allPlayers;
+    private final Map<String, Team> allTeams;
+
+    public StatsCommand(Map<String, Player> allPlayers, Map<String, Team> allTeams){
+        this.allPlayers = allPlayers;
+        this.allTeams = allTeams;
+    }
+
     @Override
-    public void execute(HashMap<String, Player> allPlayers, HashMap<String, Team> allTeams,
-                        HashMap<Integer, Match> allMatches) {
+    public void execute() {
         PriorityQueue<TeamEntity> pq = new PriorityQueue<>();
         for (Map.Entry<String, Player> entry : allPlayers.entrySet()){
             Player pl = entry.getValue();

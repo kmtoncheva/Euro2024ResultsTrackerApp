@@ -10,7 +10,12 @@ public class ArticlesCommand implements CommandAPI{
     private TeamEntity winnerTeam;
     private TeamEntity defeatedTeam;
 
-    public ArticlesCommand(){
+    private final Map<String, Player> allPlayers;
+    private final Map<Integer, Match> allMatches;
+
+    public ArticlesCommand(Map<String, Player> allPlayers, Map<Integer, Match> allMatches){
+        this.allPlayers = allPlayers;
+        this.allMatches = allMatches;
         winnerTeam = new TeamEntity();
         defeatedTeam = new TeamEntity();
     }
@@ -36,8 +41,7 @@ public class ArticlesCommand implements CommandAPI{
     public TeamEntity getWinnerTeam() {return winnerTeam;}
 
     @Override
-    public void execute(HashMap<String, Player> allPlayers, HashMap<String, Team> allTeams,
-                        HashMap<Integer, Match> allMatches) {
+    public void execute() {
 
         Queue<Match> pq = new PriorityQueue<>();
         for (Map.Entry<Integer, Match> entry : allMatches.entrySet()){
@@ -53,7 +57,7 @@ public class ArticlesCommand implements CommandAPI{
         if(!pq.isEmpty()){
             setTeams(pq.peek());
             scoreResultOutput(pq.peek());
-            goalsResultOutput(pq.peek(), allPlayers);
+            goalsResultOutput(pq.peek());
             pq.poll();
         }
         if(!pq.isEmpty()){
@@ -100,7 +104,7 @@ public class ArticlesCommand implements CommandAPI{
         System.out.println(builder);
     }
 
-    void goalsResultOutput(Match match, HashMap<String, Player> allPlayers){
+    void goalsResultOutput(Match match){
         StringBuilder builder = new StringBuilder();
         builder.append("‼️").append(match.getDate().getMonth()).append("/").append(match.getDate().getDayOfMonth())
                 .append("/").append(match.getDate().getYear()).append(" ");

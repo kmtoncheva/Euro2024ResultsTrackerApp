@@ -4,9 +4,16 @@ import tracker.tournament.*;
 import java.util.*;
 
 public class GroupStandingsCommand implements CommandAPI {
+    private final Map<String, Team> allTeams;
+    private final Map<Integer, Match> allMatches;
+
+    public GroupStandingsCommand(Map<String, Team> allTeams, Map<Integer, Match> allMatches){
+        this.allTeams = allTeams;
+        this.allMatches = allMatches;
+    }
+
     @Override
-    public void execute(HashMap<String, Player> allPlayers, HashMap<String, Team> allTeams,
-                        HashMap<Integer, Match> allMatches) {
+    public void execute() {
         System.out.println("\n\n-------------Current group standings------------\n");
         Map<Group, List<Team>> groups = new TreeMap<>();
 
