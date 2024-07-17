@@ -1,0 +1,313 @@
+[
+  {
+    "ID": 1,
+    "date": "2024-06-14T20:00:00",
+    "homeTeam": {
+      "teamName": "Germany",
+      "score": 5
+    },
+    "awayTeam": {
+      "teamName": "Scotland",
+      "score": 1
+    },
+    "round": "GROUP_STAGE",
+    "status": "FINISHED",
+    "goals": [
+      {
+        "minute": 10,
+        "playerID": "117",
+        "teamName": "Scotland"
+      },
+      {
+        "minute": 20,
+        "playerID": "103",
+        "teamName": "Germany"
+      },
+      {
+        "minute": 35,
+        "playerID": "103",
+        "teamName": "Germany"
+      },
+      {
+        "minute": 55,
+        "playerID": "107",
+        "teamName": "Germany"
+      },
+      {
+        "minute": 70,
+        "playerID": "101",
+        "teamName": "Germany"
+      },
+      {
+        "minute": 80,
+        "playerID": "103",
+        "teamName": "Germany"
+      }
+    ],
+    "cards": [
+      {
+        "minute": 15,
+        "type": "YELLOW",
+        "playerID": "111",
+        "teamName": "Germany"
+      }
+    ]
+  },
+  {
+    "ID": 2,
+    "date": "2024-06-15T18:00:00",
+    "homeTeam": {
+      "teamName": "Hungary",
+      "score": 1
+    },
+    "awayTeam": {
+      "teamName": "Switzerland",
+      "score": 3
+    },
+    "round": "GROUP_STAGE",
+    "status": "FINISHED",
+    "goals": [
+      {
+        "minute": 25,
+        "playerID": "145",
+        "teamName": "Switzerland"
+      },
+      {
+        "minute": 40,
+        "playerID": "128",
+        "teamName": "Hungary"
+      },
+      {
+        "minute": 60,
+        "playerID": "146",
+        "teamName": "Switzerland"
+      },
+      {
+        "minute": 75,
+        "playerID": "142",
+        "teamName": "Switzerland"
+      }
+    ],
+    "cards": [
+      {
+        "minute": 30,
+        "type": "YELLOW",
+        "playerID": "143",
+        "teamName": "Switzerland"
+      },
+      {
+        "minute": 70,
+        "type": "RED",
+        "playerID": "135",
+        "teamName": "Hungary"
+      }
+    ]
+  },
+  {
+    "ID": 3,
+    "date": "2024-06-19T18:00:00",
+    "homeTeam": {
+      "teamName": "Slovenia",
+      "score": 1
+    },
+    "awayTeam": {
+      "teamName": "Denmark",
+      "score": 1
+    },
+    "round": "GROUP_STAGE",
+    "status": "FINISHED",
+    "goals": [
+      {
+        "minute": 22,
+        "playerID": "154",
+        "teamName": "Slovenia"
+      },
+      {
+        "minute": 88,
+        "playerID": "162",
+        "teamName": "Denmark"
+      }
+    ],
+    "cards": [
+      {
+        "minute": 55,
+        "type": "YELLOW",
+        "playerID": "153",
+        "teamName": "Slovenia"
+      }
+    ]
+  },
+  {
+    "ID": 4,
+    "date": "2024-06-19T21:00:00",
+    "homeTeam": {
+      "teamName": "Switzerland",
+      "score": 2
+    },
+    "awayTeam": {
+      "teamName": "Denmark",
+      "score": 0
+    },
+    "round": "GROUP_STAGE",
+    "status": "FINISHED",
+    "goals": [
+      {
+        "minute": 10,
+        "playerID": "140",
+        "teamName": "Switzerland"
+      },
+      {
+        "minute": 67,
+        "playerID": "139",
+        "teamName": "Switzerland"
+      }
+    ],
+    "cards": [
+      {
+        "minute": 75,
+        "type": "YELLOW",
+        "playerID": "166",
+        "teamName": "Denmark"
+      }
+    ]
+  },
+  {
+    "ID": 5,
+    "date": "2024-06-23T20:30:00",
+    "homeTeam": {
+      "teamName": "Germany",
+      "score": 1
+    },
+    "awayTeam": {
+      "teamName": "Denmark",
+      "score": 1
+    },
+    "round": "GROUP_STAGE",
+    "status": "FINISHED",
+    "goals": [
+      {
+        "minute": 45,
+        "playerID": "109",
+        "teamName": "Germany"
+      },
+      {
+        "minute": 80,
+        "playerID": "170",
+        "teamName": "Denmark"
+      }
+    ],
+    "cards": [
+      {
+        "minute": 30,
+        "type": "YELLOW",
+        "playerID": "168",
+        "teamName": "Denmark"
+      }
+    ]
+  },
+  {
+    "ID": 6,
+    "date": "2024-07-12T20:30:00",
+    "homeTeam": {
+      "teamName": "Slovenia",
+      "score": 0
+    },
+    "awayTeam": {
+      "teamName": "Switzerland",
+      "score": 3
+    },
+    "round": "GROUP_STAGE",
+    "status": "FINISHED",
+    "goals": [
+      {
+        "minute": 55,
+        "playerID": "140",
+        "teamName": "Switzerland"
+      },
+      {
+        "minute": 55,
+        "playerID": "144",
+        "teamName": "Switzerland"
+      },
+      {
+        "minute": 55,
+        "playerID": "143",
+        "teamName": "Switzerland"
+      }
+    ],
+    "cards": [
+      {
+        "minute": 70,
+        "type": "YELLOW",
+        "playerID": "150",
+        "teamName": "Slovenia"
+      },
+      {
+        "minute": 85,
+        "type": "YELLOW",
+        "playerID": "157",
+        "teamName": "Slovenia"
+      }
+    ]
+  },
+  {
+    "ID": 7,
+    "date": "2024-07-17T23:30:00",
+    "homeTeam": {
+      "teamName": "Switzerland",
+      "score": null
+    },
+    "awayTeam": {
+      "teamName": "Germany",
+      "score": null
+    },
+    "round": "QUARTERFINALS",
+    "status": "UPCOMING",
+    "goals": [
+      {}
+    ],
+    "cards": [
+      {}
+    ]
+  },
+  {
+    "ID": 8,
+    "date": "2024-07-19T20:30:00",
+    "homeTeam": {
+      "teamName": "Slovenia",
+      "score": null
+    },
+    "awayTeam": {
+      "teamName": "Switzerland",
+      "score": null
+    },
+    "round": "SEMIFINALS",
+    "status": "UPCOMING",
+    "goals": [
+      {}
+    ],
+    "cards": [
+      {}
+    ]
+  },
+  {
+    "ID": 9,
+    "date": "2024-07-21T20:30:00",
+    "homeTeam": {
+      "teamName": "Denmark",
+      "score": null
+    },
+    "awayTeam": {
+      "teamName": "Germany",
+      "score": null
+    },
+    "round": "SEMIFINALS",
+    "status": "UPCOMING",
+    "goals": [
+      {}
+    ],
+    "cards": [
+      {}
+    ]
+  }
+]

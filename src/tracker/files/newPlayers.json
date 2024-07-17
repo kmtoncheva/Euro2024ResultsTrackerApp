@@ -1,0 +1,382 @@
+[
+    {
+    "ID": "100",
+    "name": "Oliver Baumann",
+    "position": "GOALKEEPER"
+    },
+    {
+    "ID": "101",
+    "name": "Manuel Neuer",
+    "position": "GOALKEEPER"
+    },
+    {
+    "ID": "102",
+    "name": "Stuart Armstrong",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "103",
+    "name": "Lewis Ferguson",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "104",
+    "name": "DavID Turnbull",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "105",
+    "name": "Che Adams",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "106",
+    "name": "Lyndon Dykes",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "107",
+    "name": "Kevin Nisbet",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "108",
+    "name": "Ryan Fraser",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "109",
+    "name": "Lawrence Shankland",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "110",
+    "name": "Dénes Dibusz",
+    "position": "GOALKEEPER"
+    },
+    {
+    "ID": "111",
+    "name": "Péter Gulácsi",
+    "position": "GOALKEEPER"
+    },
+    {
+    "ID": "112",
+    "name": "Péter Szappanos",
+    "position": "GOALKEEPER"
+    },
+    {
+    "ID": "113",
+    "name": "Botond Balogh",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "114",
+    "name": "Bendegúz Bolla",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "115",
+    "name": "Endre Botka",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "116",
+    "name": "Márton Dárdai",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "117",
+    "name": "Attila Fiola",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "118",
+    "name": "Miloš Kerkez",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "119",
+    "name": "Ádám Lang",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "120",
+    "name": "Zsolt Nagy",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "121",
+    "name": "Loïc Négo",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "122",
+    "name": "Willi Orbán",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "123",
+    "name": "Attila Szalai",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "124",
+    "name": "Dániel Gazdag",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "125",
+    "name": "Mihály Kata",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "126",
+    "name": "László Kleinheisler",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "127",
+    "name": "Ádám Nagy",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "128",
+    "name": "András Schäfer",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "129",
+    "name": "Callum Styles",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "130",
+    "name": "Dominik Szoboszlai",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "131",
+    "name": "Martin Ádám",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "132",
+    "name": "Kevin Csoboth",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "133",
+    "name": "Kristofer Horváth",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "134",
+    "name": "Roland Sallai",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "135",
+    "name": "Barnabás Varga",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "136",
+    "name": "Yann Sommer",
+    "position": "GOALKEEPER"
+    },
+    {
+    "ID": "137",
+    "name": "Gregor Kobel",
+    "position": "GOALKEEPER"
+    },
+    {
+    "ID": "138",
+    "name": "Jonas Omlin",
+    "position": "GOALKEEPER"
+    },
+    {
+    "ID": "139",
+    "name": "Ricardo Rodríguez",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "140",
+    "name": "Nico Elvedi",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "141",
+    "name": "Fabian Schär",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "142",
+    "name": "Manuel Akanji",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "143",
+    "name": "Kevin Mbabu",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "144",
+    "name": "Silvan WIDmer",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "145",
+    "name": "Eray Cömert",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "146",
+    "name": "Ulisses Garcia",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "147",
+    "name": "Djibril Sow",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "148",
+    "name": "Denis Zakaria",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "149",
+    "name": "Granit Xhaka",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "150",
+    "name": "Remo Freuler",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "151",
+    "name": "Xherdan Shaqiri",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "152",
+    "name": "Ruben Vargas",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "153",
+    "name": "Fabian Frei",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "154",
+    "name": "Michel Aebischer",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "155",
+    "name": "Noah Okafor",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "156",
+    "name": "Breel Embolo",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "157",
+    "name": "Haris Seferović",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "158",
+    "name": "Steven Zuber",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "159",
+    "name": "Ruben Loftus-Cheek",
+    "position": "FORWARD"
+    },
+    {
+    "ID": "160",
+    "name": "Unai Simón",
+    "position": "GOALKEEPER"
+    },
+    {
+    "ID": "161",
+    "name": "DavID Raya",
+    "position": "GOALKEEPER"
+    },
+    {
+    "ID": "162",
+    "name": "Robert Sánchez",
+    "position": "GOALKEEPER"
+    },
+    {
+    "ID": "163",
+    "name": "Dani Carvajal",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "164",
+    "name": "César Azpilicueta",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "165",
+    "name": "Aymeric Laporte",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "166",
+    "name": "Pau Torres",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "167",
+    "name": "José Gayà",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "168",
+    "name": "Jordi Alba",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "169",
+    "name": "Marcos Llorente",
+    "position": "DEFENDER"
+    },
+    {
+    "ID": "170",
+    "name": "Rodri",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "171",
+    "name": "Pedri",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "172",
+    "name": "Gavi",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "173",
+    "name": "Koke",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "174",
+    "name": "Sergio Busquets",
+    "position": "MIDFIELDER"
+    },
+    {
+    "ID": "175",
+    "name": "Thiago Alcântara",
+    "position": "MIDFIELDER"
+    }
+]
